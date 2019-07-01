@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  		<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+  		<title>Introduction</title>
+  		<link href="white.css" rel="stylesheet" type="text/css"/ id="pagestyle">
+  		<link href="animate.css" rel="stylesheet" type="text/css"/>
+  		<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+  		<script type="text/javascript" src="JS_backbone.js"></script>
+	</head>
+	<body>
+		<div id="menu" class="container">
+			<img src="tmp.png" alt="placeholder" width="100%" id="top-picture">
+			<div id="menu-sticker">
+			<ul id="menu-list"> <!-- menu -->
+				<li class="menu-list">
+					<a href="index.html" class="menu-button">
+						<div class="menu-texts">Introduction</div>
+					</a>
+				</li>
+				<li class="menu-list">
+					<a href="rules.html" class="menu-button">
+						<div class="menu-texts">Rules</div>
+					</a>
+				</li>
+				<li class="menu-list">
+					<a href="armour frames.html" class="menu-button">
+						<div class="menu-texts">Armour Frames</div>
+					</a>
+				</li>
+				<li class="menu-list">
+					<a href="addons.html" class="menu-button">
+						<div class="menu-texts">Addons</div>
+					</a>
+				</li>
+				<li class="menu-list">
+					<a href="other equipment.html" class="menu-button">
+						<div class="menu-texts">Other equipment</div>
+					</a>
+				</li>
+			</ul>
+			</div>
+		</div>
+		<div class="container heading ">
+			<h1>Other equipment</h1>
+		</div>
+		<div class="container heading revealOnScroll" data-animation="fadeInUp">
+			<h2>Ammunition</h2>
+		</div>
+		<div class="container heading revealOnScroll" data-animation="fadeInUp">
+			<h3>Anti-Armor ammo/mod</h3>
+		</div>
+		<div class="container revealOnScroll" data-animation="fadeInUp">
+			<p>Highly illegal. Any damage dealt to armor HP is doubled. Any other damage dealt by it is lowered by one.</p>
+		</div>
+		<div class="container heading revealOnScroll" data-animation="fadeInUp">
+			<h3>Anti-Shield ammo/mod</h3>
+		</div>
+		<div class="container revealOnScroll" data-animation="fadeInUp">
+			<p>Highly illegal. Any damage dealt to shield HP is doubled. Any other damage dealt by it is lowered by one.</p>
+		</div>
+		<div class="container heading revealOnScroll" data-animation="fadeInUp">
+			<h3>Tracer ammo/mod</h3>
+		</div>
+		<div class="container revealOnScroll" data-animation="fadeInUp">
+			<p>Highlights projectile trajectory. Gives +1 to hit, if fired as single shot. +2 to burst fire. +4 to heavy weapons.</p>
+		</div>
+		<div class="container heading revealOnScroll" data-animation="fadeInUp">
+			<h2>Armor accessories</h2>
+		</div>
+		<div class="container heading revealOnScroll" data-animation="fadeInUp">
+			<h3>Armor cammo (Urban/Desert/Jungle/Marine/Plains)</h3>
+		</div>
+		<div class="container revealOnScroll" data-animation="fadeInUp">
+			<p>Special paint that obscures details of armor. Gives +1 AC until damaged for 5 points.</p>
+		</div>
+		<div class="container heading revealOnScroll" data-animation="fadeInUp">
+			<h3>Reflective cammo</h3>
+		</div>
+		<div class="container revealOnScroll" data-animation="fadeInUp">
+			<p>Gives 2 dmg resistance against lasers until hit by any other weaponry. Outer coating is made of black paint, that becomes transparent when heated.</p>
+		</div>
+		<div class="container heading revealOnScroll" data-animation="fadeInUp">
+			<h2>Implants</h2>
+		</div>
+		<div class="container heading revealOnScroll" data-animation="fadeInUp">
+			<h3>Shield implants (50 000 cr per level of implant, 1 system strain per level of implant)</h3>
+		</div>
+		<div class="container revealOnScroll" data-animation="fadeInUp">
+			<p>Once per scene, user can gain 5 shield HP per level of implant. Shields act as vaccskin. If character is psionic, their effort is lowered by one per level of implant.</p>
+		</div>
+		<div class="container heading revealOnScroll" data-animation="fadeInUp">
+			<h2>Weapons</h2>
+		</div>
+		<div class="container heading revealOnScroll" data-animation="fadeInUp">
+			<h3>Shredder autocannon (20 000 cr, 2d20 dmg, 200 cr per round of firing, heavy weapon)</h3>
+		</div>
+		<div class="container revealOnScroll" data-animation="fadeInUp">
+			<p>Big cannon firing explosive shells at high cadency. As it is designed to take out heavily armored targets, damage dealt is tripled if it’s done against armor HP. Its high firing cadency and recoil make its damage output unreliable.</p>
+		</div>
+		<div class="container heading revealOnScroll" data-animation="fadeInUp">
+			<h3>Flamethrower (5 000 cr, 3d8 dmg, 50 cr per round of firing, heavy weapon, 4 enc)</h3>
+		</div>
+		<div class="container revealOnScroll" data-animation="fadeInUp" id="last">
+			<p>Deals considerable amount of damage and may set the floor ablaze. If armor is hit, alongside normal damage its halfed value is applied as heat.</p>
+		</div>
+		<div class="dropdown container" id="style-selection">
+			<span>Change style</span>
+			<button onclick="swapStyleSheet('white.css')" class="dropdown-content" id="white-style-button">White style</button>
+			<button onclick="swapStyleSheet('dark.css')" class="dropdown-content" id="dark-style-button">Dark style</button>
+		</div>
+	</body>
+</html>
